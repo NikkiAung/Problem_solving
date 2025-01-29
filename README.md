@@ -24,3 +24,23 @@
     - Purpose to elect the most frequent one at top of the level
     - Use Bucket Sort
     - Range for len of arr, cuz it is not beyond more than that
+
+6. Encoding & Decoding
+    - len(str) + "#" + str
+    - use two pointer i and j wth **while loop** 
+
+7. Product ExceptSelf
+```bash
+├── Use For loop wth l_mul and r_mul (i and j = -i-1) 
+│   ├── [1,2,3,4]
+│       ├── [1, 1, 2, 6]
+│       ├── [24, 12, 4, 1]
+        
+```
+
+8. longestConsecutive
+    - Check if num-1 so that that num should be the 1st number of the sequence
+    - Keep searching and upadting currNum and count to find the max len
+   
+9. isValidSudoku
+    - rows[r], cols[c], squares[(r//3,c//3)]
