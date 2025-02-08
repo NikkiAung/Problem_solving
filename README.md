@@ -44,3 +44,8 @@
    
 9. isValidSudoku
     - rows[r], cols[c], squares[(r//3,c//3)]
+
+10. isPalindrome
+    - use while loop wth TwoPointer Alogorithm
+    - 1 step forward +=1 and 1 step backward -=1
+
