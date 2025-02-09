@@ -1,6 +1,6 @@
 # Problem Solving With Python
 
-## Array Questions
+## Arrays & Hashing
 
 1. containDuplicate 
    - Use set() 
@@ -45,7 +45,17 @@
 9. isValidSudoku
     - rows[r], cols[c], squares[(r//3,c//3)]
 
+## Two Pointers
+
 10. isPalindrome
     - use while loop wth TwoPointer Alogorithm
     - 1 step forward +=1 and 1 step backward -=1
+
+11. Two_Integer_Sum_II
+    - use outer loop wth i & innner loop wth j using while to 
+    - going with standard i number 1st followed by j series to cross over one complete array
+
+12. Three Sum
+    - **Sorted 1st** to avoid duplicates
+    - Use for i loop for outer, and while loop for inner coming across until while j < k
 
