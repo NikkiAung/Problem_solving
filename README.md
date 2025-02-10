@@ -59,3 +59,18 @@
     - **Sorted 1st** to avoid duplicates
     - Use for i loop for outer, and while loop for inner coming across until while j < k
 
+13. Container_With_Most_Water
+    - One side wth min height and one wth max height to containize water
+    - min(height[l],height[r]) * (r-l)
+    ```bash
+    if height[l] <= height[r]: 
+        l+=1
+    else: 
+        r-=1
+    ```
+
+14. Trapping_Rain_Water
+    - Prefix and Suffix 
+    - left[0]*n for left most greatest num
+    - right[0]*n for right most greatest num
+    - res += min(leftMax[i],rightMax[i]) - height[i]
