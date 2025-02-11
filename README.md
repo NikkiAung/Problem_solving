@@ -74,3 +74,16 @@
     - left[0]*n for left most greatest num
     - right[0]*n for right most greatest num
     - res += min(leftMax[i],rightMax[i]) - height[i]
+
+15. Best Time to Buy and Sell Stock
+    - use two pointers outer for loop wth i followed by inner while loop j
+    - if prices[i] > prices[j]: break
+
+16. Length Of Longest Substring
+    - Use sliding window
+    - Becareful of **l <= s[r]**
+
+17. Character Replacement
+    - Use sliding window
+    - **changes = (r-l+1)-maxFreq**
+    - Use outer for loop and inner while loop until changes > k
