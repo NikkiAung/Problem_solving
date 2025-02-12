@@ -79,6 +79,8 @@
     - use two pointers outer for loop wth i followed by inner while loop j
     - if prices[i] > prices[j]: break
 
+## Sliding Window
+
 16. Length Of Longest Substring
     - Use sliding window
     - Becareful of **l <= s[r]**
@@ -87,3 +89,9 @@
     - Use sliding window
     - **changes = (r-l+1)-maxFreq**
     - Use outer for loop and inner while loop until changes > k
+
+18. Check Inclusion (Permutation)
+    - Same concept wth Anagram, but finding subset in whole text
+    - So, take unique index of char
+    - Becareful of **r-=1**
+    

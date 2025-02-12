@@ -9,8 +9,7 @@ def productExceptSelf(nums):
             r_arr[j] = r_mul
             l_mul *= nums[i]
             r_mul *= nums[j]
-        print(l_arr)
-        print(r_arr)
+        return [i*j for i,j in zip(l_arr,r_arr)]
 
 nums = [1,2,3,4]
-productExceptSelf(nums)
+print(productExceptSelf(nums))
