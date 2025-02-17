@@ -94,4 +94,7 @@
     - Same concept wth Anagram, but finding subset in whole text
     - So, take unique index of char
     - Becareful of **r-=1**
-    
+
+19. MinimumWindowSubstring.py
+    - use the concept of len, if count == len(s) -> substring
+    -  use one hashing -> rightChar -= 1, then leftChar += 1
