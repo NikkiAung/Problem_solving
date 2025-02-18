@@ -95,6 +95,13 @@
     - So, take unique index of char
     - Becareful of **r-=1**
 
-19. MinimumWindowSubstring.py
+19. Minimum Window Substring 
     - use the concept of len, if count == len(s) -> substring
-    -  use one hashing -> rightChar -= 1, then leftChar += 1
+    - use one hashing -> rightChar -= 1, then leftChar += 1
+
+## Stack & queue
+
+20. SlidingWindowMaximum
+    - use monotonic decreasing order
+    - remove out of bound index if dq and frontIndex == i-k
+    - append if i >= k-1
