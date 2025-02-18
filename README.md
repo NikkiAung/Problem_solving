@@ -101,7 +101,20 @@
 
 ## Stack & queue
 
-20. SlidingWindowMaximum
+20. Sliding Window Maximum
     - use monotonic decreasing order
     - remove out of bound index if dq and frontIndex == i-k
     - append if i >= k-1
+
+21. Valid Parentheses 
+    - use stack
+    ```bash 
+    if stack and stack[-1] == dict[char] -> pop
+    else return False
+    ```
+
+22. Minimum Stack
+    - Before push, check if val < mini -> 2val - mini
+    - Before pop, check if pop_val < mini -> mini = 2mini * pop_val
+    - formula
+    ![miniStack formula](./images/miniStack.jpg) 
