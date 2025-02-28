@@ -1,0 +1,2 @@
+sign = '*'
+print(int(sign))
