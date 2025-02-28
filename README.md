@@ -134,3 +134,11 @@
     - Before pop, check if pop_val < mini -> mini = 2mini * pop_val
     - formula
     ![miniStack formula](./images/miniStack.jpg) 
+
+24. evalRPN
+    #### Solu1
+    - tokens[:i-2] + [str(result)] + tokens[i+1:]
+
+    #### Solu2
+    - stack.pop(),stack.pop() <- double pop for -,/ use a,b
+    - int(c) for append
