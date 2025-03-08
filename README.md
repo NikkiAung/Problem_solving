@@ -142,3 +142,8 @@
     #### Solu2
     - stack.pop(),stack.pop() <- double pop for -,/ use a,b
     - int(c) for append
+
+25.  generateParenthesis
+    - use backtracking -> append -> func call -> pop using condition
+    - base case -> openN == closedN == n:
+    - openN < n: & closedN < openN:
