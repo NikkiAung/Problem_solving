@@ -1,13 +1,5 @@
-let person = [
-    {name: "John",
-    age: 30,
-    city: "New York"},
-    {name: "Aung",
-    age: 32,
-    city: "Myanmar"}
-    
-]
+const array1 = [5, 12, 8, 130, 44];
 
-for(key of person) {
-    console.log(key);
-}
+const found = array1.find((element) => element > 10);
+
+console.log(found);

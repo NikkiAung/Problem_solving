@@ -147,3 +147,14 @@
     - use backtracking -> append -> func call -> pop using condition
     - base case -> openN == closedN == n:
     - openN < n: & closedN < openN:
+
+26. DailyTemperatures
+    - use monotonic decreaing order
+    - use enumerate to get stackT, stackInd =  stack.pop()
+
+28. Car Fleet
+    - pair = [[p,s] for p,s in zip(position,speed)]
+    - loop sorted(pair)[::-1]:
+    - find t -> (target-p)/speed
+    - if len(stack) >= 2 and stack[-1] <= stack[-2]: pop
+    - return len(stack)
