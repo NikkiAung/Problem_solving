@@ -1,6 +1,8 @@
-res = []
-solu = [1,2,3]
-# res.append(solu)
-res.append(solu[:])
-solu[0] = 99
-print(res)
+class Graph():
+    def __init__(self, id):
+        self.id = id
+        self.id = 80
+
+
+val = Graph(200)
+print(val.id)
