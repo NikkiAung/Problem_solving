@@ -158,3 +158,7 @@
     - find t -> (target-p)/speed
     - if len(stack) >= 2 and stack[-1] <= stack[-2]: pop
     - return len(stack)
+
+29. largestRectangleArea
+    - monotonic increasing order
+    - start = i , then start should be pop's index
